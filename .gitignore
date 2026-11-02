@@ -1,0 +1,25 @@
+# WorkBuddy 工作区
+.workbuddy/
+
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 环境与密钥（绝不入库）
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
